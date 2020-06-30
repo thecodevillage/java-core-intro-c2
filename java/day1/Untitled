@@ -1,0 +1,13 @@
+
+create a folder day2
+
+inside day2
+
+ create a file sum.java
+
+ write a program that outputs sum of 2 numbers
+  int a = 20;
+
+  int b = 30;
+
+  print the sum;
