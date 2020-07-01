@@ -1,3 +1,4 @@
+package com.codevillage.day2;
 
 class Sum{
 public static void main(String[] args) {

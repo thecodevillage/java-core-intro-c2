@@ -1,3 +1,4 @@
+package com.codevillage.day1;
 
 //master syntax
 //aware of your code

@@ -1,0 +1,42 @@
+SVN/VSS/
+
+GIT
+
+- managing our source code
+
+Git tool that helps in tracking changes in our source
+
+- Github Cloud tool that helps
+
+- Gitlab/Bitbucket
+
+-> CI & CD
+
+Repository - Container -> store our code
+
+-> Local Repo
+-> Remote Repo
+
+1 -> git init
+
+- initiatializes an empty git repository
+
+2. git add .
+
+  hello.hava
+  age.java
+
+git add hello.java
+
+- add files for tracking
+
+3. git commit -m "Fixing a payment bug"
+
+-----------
+
+4.git remote add origin https://github.com/thecodevillage/java-core-intro-c2.git
+
+
+5. git push -u origin master - move local changes to remote server
+
+6. git pull origin master - move remote changes to local server

@@ -1,4 +1,4 @@
-
+package com.codevillage.day1;
 
 
 public class Age{
@@ -6,7 +6,7 @@ public class Age{
     //final PI = 3.142;
     int myAge = 30;
     //System.out.println("I am " + myAge + " years old");
-    myAge = 35
+    myAge = 35;
     System.out.println("I am " + myAge + " years old");
   }
 }
