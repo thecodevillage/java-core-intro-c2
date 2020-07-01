@@ -24,6 +24,10 @@ public class Multiply{
   static int doSubtract(int a,int b){
     return a - b;
   }
+
+  static int doMultiply(int a,int b){
+    return a * b;
+  }
 }
 
 // Multiply.main
