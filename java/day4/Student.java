@@ -4,7 +4,7 @@ public class Student{
 
   public static void main(String[] args){
     String name= "John Doe";
-    String admissionNo = "233300";
+    String admissionNo = "233300 AST-2O21";
     boolean activityFeePaid = false;
     double feeBalance = 0.00;
     //conditions
@@ -30,12 +30,12 @@ public class Student{
     //feeBalance 10000 - 15000 -> No Accessing library
     //feeBalance more 15000 -> Go Home
     //feeBalance less than 10000 -> Remain in School
-    if(feeBalance >= 10000 && feeBalance <=15000){
+    if(feeBalance >= 10000 && feeBalance <=16000){
         System.out.println("STATUS: \t CANNOT ACCESS LIBRARY");
     }
 
     if(feeBalance > 15000){
-        System.out.println("STATUS: \t GO HOME SOONEST");
+        System.out.println("STATUS: \t QUIT SCHOOLING");
     }
 
     if(feeBalance < 10000){
