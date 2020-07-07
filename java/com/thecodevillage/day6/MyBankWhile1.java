@@ -3,12 +3,12 @@ package com.thecodevillage.day6;
 import java.util.Scanner;
 
 public class MyBankWhile1 {
+    //use of conditional loops
     static Scanner scanner=new Scanner(System.in);
     static double balance = 10000.00;
     static double depositInput = 0;
     static boolean exit = false;
     public static void main(String[] args){
-
         int pin=1234;
         System.out.println(" -- Welcome to our Bank -- ");
         System.out.println(" Enter PIN ");
