@@ -1,4 +1,4 @@
-package com.codevillage.day1;
+package com.thecodevillage.day1;
 
 
 public class Age{

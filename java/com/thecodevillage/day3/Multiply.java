@@ -1,9 +1,15 @@
-
+package com.thecodevillage.day3;
 
 public class Multiply{
 
   public static void main(String[] args){
+
     int a = 20;
+
+    a = 30;
+
+    System.out.println(a);
+
     int b = 40;
     int result = a * b;
 

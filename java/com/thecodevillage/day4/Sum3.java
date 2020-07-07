@@ -1,5 +1,6 @@
+package com.thecodevillage.day4;
 
-public class Sum2{
+public class Sum3{
 
 
 public static void main(String[] args){
@@ -12,7 +13,7 @@ public static void main(String[] args){
 
     sum = a +b;
 
-    System.out.println(sum)
+    System.out.println(sum);
 
 }
 
