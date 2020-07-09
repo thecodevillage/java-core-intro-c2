@@ -18,23 +18,28 @@ public class StudentGrade {
      */
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
-        int num1=1;
+//        int num=1;
+        int num=100;
 
-//        while(num >0 && num <= 100){
-//            System.out.println("Num: "+num);
-//            if (num == 50)
-//                break;
-//            num--;
-//        }
+        while(num >0 && num <= 100){
+            if (num == 50) {
+                num--;
+                break;
+            }
+            System.out.println("Num: "+num);
+            num--;
+        }
 
-        //with continue statement
-//        while(num < 100){
-//            if (num%2 == 0){
-//                System.out.println("Num: "+num);
-//                continue;
-//            }
-//            num--;
-//        }
+//        with continue statement
+
+        while(num >0 && num <= 100){
+            if (num==50){
+                num--;
+                continue;
+            }
+            System.out.println("Num: "+num);
+            num--;
+        }
 
 
 //        for(int num=0;num <=100 ; num++){
@@ -71,10 +76,10 @@ public class StudentGrade {
         //if gender is F -female
         //if gender is M - Male
 
-        String gender="M";//m
-
-        System.out.println(" Enter Gender ");
-        String userInput=scanner.next();
+//        String gender="M";//m
+//
+//        System.out.println(" Enter Gender ");
+//        String userInput=scanner.next();
 
         //Johnn == John
 
@@ -89,8 +94,8 @@ public class StudentGrade {
 //            System.out.println("Female");
 //        }
         //1 0
-        System.out.println(gender.equalsIgnoreCase(userInput) ? "Male" : "Female");
-        scanner.close();
+//        System.out.println(gender.equalsIgnoreCase(userInput) ? "Male" : "Female");
+//        scanner.close();
     }
 
 }
