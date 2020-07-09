@@ -22,6 +22,7 @@ public class StudentsGrade {
 
         System.out.println("Enter No of Students ");
         noOfStudents = scanner.nextInt();
+
         if (noOfStudents > 0){
             int noOfSubjects = 0;
             int counter = 1;
