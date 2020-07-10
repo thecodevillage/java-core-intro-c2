@@ -34,7 +34,7 @@ public class StudentGrade {
 
         while(num >0 && num <= 100){
             if (num==50){
-                num--;
+                num--; //
                 continue;
             }
             System.out.println("Num: "+num);
@@ -42,60 +42,38 @@ public class StudentGrade {
         }
 
 
-//        for(int num=0;num <=100 ; num++){
-//            if (num==50){
-//                continue;
-//            }
-//
-//            System.out.println(num);
-//        }
-
-
-//        for(int num=0;num <=100 ; num++){
-//            if (num==50){
-//                break;
-//            }
-//
-//            System.out.println(num);
-//        }
-
-        /*
-
-        int num = 1;
-
-        while(num <=100){
+        for(num=0;num <=100 ; num++){
             if (num==50){
                 continue;
             }
+
             System.out.println(num);
-            num++;
         }
 
-        */
 
-        //if gender is F -female
-        //if gender is M - Male
+        for(num=0;num <=100 ; num++){
+            if (num==50){
+                break;
+            }
 
-//        String gender="M";//m
-//
-//        System.out.println(" Enter Gender ");
-//        String userInput=scanner.next();
+            System.out.println(num);
+        }
 
-        //Johnn == John
 
-        //String
-        //trim -
-        //split
-        //equality
+        String gender="M";//m
 
-//        if (gender.equalsIgnoreCase(userInput)){
-//            System.out.println("Male");
-//        } else{
-//            System.out.println("Female");
-//        }
-        //1 0
-//        System.out.println(gender.equalsIgnoreCase(userInput) ? "Male" : "Female");
-//        scanner.close();
+        System.out.println(" Enter Gender ");
+        String userInput=scanner.next();
+
+
+        if (gender.equalsIgnoreCase(userInput)){
+            System.out.println("Male");
+        } else{
+            System.out.println("Female");
+        }
+
+        System.out.println(gender.equalsIgnoreCase(userInput) ? "Male" : "Female");
+        scanner.close();
     }
 
 }
