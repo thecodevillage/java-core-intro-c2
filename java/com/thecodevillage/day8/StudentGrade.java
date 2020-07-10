@@ -72,6 +72,9 @@ public class StudentGrade {
             System.out.println("Female");
         }
 
+        //String
+
+
         System.out.println(gender.equalsIgnoreCase(userInput) ? "Male" : "Female");
         scanner.close();
     }
