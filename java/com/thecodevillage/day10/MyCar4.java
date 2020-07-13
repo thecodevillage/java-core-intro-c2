@@ -26,10 +26,5 @@ public class MyCar4 {
         this.regNumber = regNumber;
     }
 
-    public String getStudentEmail(){
-        //logic
-        this.name + this
-        return "";
-    }
 
 }
