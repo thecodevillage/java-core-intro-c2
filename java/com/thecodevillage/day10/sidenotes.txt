@@ -1,0 +1,81 @@
+    //OOP
+    //Object Oriented Programming
+
+    //School System
+    //School
+    //Dining Hall
+     //Classes
+    //Administrat
+    //Students/
+    //Teachers
+    //Cooks
+    /*
+        - Classes
+        - Object
+        - Polymorphism
+        - Encapsulation
+        - Abstraction
+        - Method
+        - Message Parsing
+        - Inheritance
+
+        Dog -> class
+            - 4 legs - noflegs
+            - it can bark - canBark
+            - color - attribute
+
+            -> Bull dog
+                - Yellow
+            -> Roterweller
+            -> german Shepherd
+            -> t9
+
+        Fruits
+            - Mangoes
+            - Oranges
+            -Kiwi
+            -carrot
+            -
+
+        Vehicle ->
+            - NZE
+            - Prado
+                - TX
+                - V8
+                -
+
+
+            - Range
+                - Sport
+                - Velar
+     */
+
+
+     Task 1 (8 mins)
+
+     1. Create a Student class
+     2. Student has the following attributes - name, regNo, age, address, date of birth(string)
+     3. Create a StudentApp Class that has main method to assign values to the student object and out put the result
+
+
+     //Constructor
+
+     - Special function or method used to initialize attribute values
+
+
+     Task 2
+     . Create a class Student1
+     -has attributes name, regNo, age, address, date of birth(string)
+     - has a constructor that expects the above as parameters
+
+     - set the values of Student1 object in StudentApp.java above and output the result
+
+
+     Task3
+          . Create a class Student2
+          -has attributes name, regNo, age, address, date of birth(string)
+          - create setters and getters
+
+          - set the values of Student2 using setter in StudentApp.java above and output the result with getters
+
+
