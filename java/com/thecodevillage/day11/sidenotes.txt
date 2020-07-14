@@ -1,0 +1,16 @@
+    Inheritance
+    ----------
+    - child obtaining certain attributes or methods from parent classes
+    - Superclass(parent,baseclass) & subclass (child)
+
+   - extends (keyword used to tell that a class inherits from another)
+
+   - Re-usability - re-using field and methods of an existing class
+
+   - Single Level Inheritance (Class Bulldog inherits from Dog
+
+   - Multilevel Inheritance -> Class Bulldog1 inherits from Bulldog which inherits from Dog
+
+   - Hierarchical -> Class Dog inherited by Bulldog, GermanShephered
+
+   - Multiple Inheritance -> Interfaces

@@ -12,12 +12,14 @@
     /*
         - Classes
         - Object
-        - Polymorphism
-        - Encapsulation
-        - Abstraction
-        - Method
-        - Message Parsing
+        - Encapsulation  getters & setters
+        - Methods
+
         - Inheritance
+        - Polymorphism
+        - Abstraction
+        - Message Parsing
+
 
         Dog -> class
             - 4 legs - noflegs
@@ -77,5 +79,3 @@
           - create setters and getters
 
           - set the values of Student2 using setter in StudentApp.java above and output the result with getters
-
-

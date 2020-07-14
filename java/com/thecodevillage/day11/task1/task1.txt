@@ -1,0 +1,13 @@
+
+10 mins
+
+1. Create a Parent class Vehicle
+    - has properties (name,color,regNumber)
+    - has methods brake, stop accelerate
+
+2 . Create Child Classes (Ford, Toyota)  that inherit from above
+
+3. create a class VehicleApp with main method
+    - create instance of your child classes
+    - set values fro attributes and output result
+

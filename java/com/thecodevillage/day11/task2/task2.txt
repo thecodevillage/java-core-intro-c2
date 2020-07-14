@@ -1,0 +1,14 @@
+
+1. Create a base class Fruit
+    - has properties name, weight, isPerishable, color
+
+    -has  getters & setters
+    - has constructor with above attributes
+
+2. Create a Subclasses MangoFruit, OrangeFruit, QuavaFruit that inherit from fruit class and have their own attributes & methods
+    - constructor, getters & setters
+3. Create another class that inherits from any of the above (all)
+    - constructor, getters & setters
+
+4. Create a FruitApp class that has main method
+    - create instances of the above classes, set values and output results.
