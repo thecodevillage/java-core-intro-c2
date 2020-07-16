@@ -1,0 +1,58 @@
+     ** *****
+     Polymorphism
+
+       - Ability to exist in many forms.
+
+       Student - child, football player,
+
+       - Method Overloading
+            sum(a,b)
+            sum(a,b,c)
+       - Operator overloading
+           (+)
+
+           String a = "10";
+           String b = "20";
+
+           System.out.println(a+b);
+
+           output = 1020
+
+
+           Int a = 10;
+           int b = 20;
+
+           System.out.println(a+b);
+
+           output = 30
+
+       - Method Overriding (Runtime polymorphism)
+       - overwriting the original implementation of a method
+
+       - With inheritance
+
+     ******************
+     ABSTRACTION
+     ******************
+     - Abstract classes
+     - show essentials and hide the details
+     - Achieved
+        - Interfaces
+        - Abstract classes.
+
+      Abstract class
+      - keyword abstract
+
+      -
+
+      ****************
+      Interfaces
+      ****************
+
+      - keyword interface
+
+      eg Dog must
+      - bite
+      - bark
+      - eat
+

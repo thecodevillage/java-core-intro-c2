@@ -1,0 +1,5 @@
+
+
+1. write a program to demonstrate abtract classes using Vehicle
+
+2. write a program to demonstrate interfaces using calculator functions (add,minus,multiply,div)

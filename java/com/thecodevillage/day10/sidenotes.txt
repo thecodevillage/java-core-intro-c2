@@ -52,7 +52,6 @@
                 - Velar
      */
 
-
      Task 1 (8 mins)
 
      1. Create a Student class
@@ -79,3 +78,6 @@
           - create setters and getters
 
           - set the values of Student2 using setter in StudentApp.java above and output the result with getters
+
+
+
