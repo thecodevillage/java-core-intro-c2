@@ -1,0 +1,62 @@
+
+
+-> Arrays
+    - Multiple values of the same data type
+    - Strings, integers, Characters, Short, doubles
+
+    Defining
+
+    String[] students;
+
+    String[] students = {"John", "Nick", "Elvis"}
+
+    students = new String[]{"John", "Nick", "Elvis"};
+
+    int[] scores = {2, 34,56,200,450,80};
+
+    double[] scores = {2.5, 34.56,56,200.05,450,80};
+
+
+    //Initialize with the length - (no values)
+    String[] students=new String[5];
+
+
+    1. length (.length)
+    2. Accessing elements
+        - index
+
+    students = new String[]{"John", "Nick", "Elvis"};
+
+    student at position:
+        0 -> John (students[0])
+        1 -> Nick (students[1])
+        2 -> Elvis (students[2])
+
+    3. Replace values
+        - use the index
+
+        students[0] = "New Value"
+
+    4. Get all contents of the Array (Loops)
+        - for loop
+
+
+    5. We can also have arrays of objects
+    6. use them method arguments
+    7. return them in methods
+
+    8. ArrayIndexOutOfBounds
+
+
+    Multi Dimensional Arrays
+    -------------------------
+    - 2D Matrices
+
+     int[][] scores=new int[2][3]
+
+    - 3D
+
+    int[][][] = new int[3][3][2]
+
+
+    ** Self Study -> Copying Array to Another

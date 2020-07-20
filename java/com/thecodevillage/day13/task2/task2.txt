@@ -1,0 +1,15 @@
+
+10 mins
+
+1. define an array of scores length 10
+
+2. write a a for loop to output each score
+
+3. also output total sum and mean score
+
+   NB:
+    - allow the user to enter the no.of scores
+    - allow user to enter the scores
+
+    - a function that takes an array of scores and return the sum.
+    - a function that takes an array of scores and return the mean
