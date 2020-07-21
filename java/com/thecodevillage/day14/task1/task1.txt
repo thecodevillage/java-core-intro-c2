@@ -1,0 +1,19 @@
+20 mins
+
+1. Create a grading system for a school/class
+2. allow teacher to enter number of students
+2. capture details of each students
+    - name, regNumber, address
+    - noof subjects
+    - enter the subjects and their scores
+
+ 3. display all student details
+    -subject grades
+    - mean grades
+    - mean score
+    -
+
+ 4. mean grade and score for the entire class
+
+    NB: Use OOP concepts learnt
+        - use of classes, encapsulation, functions

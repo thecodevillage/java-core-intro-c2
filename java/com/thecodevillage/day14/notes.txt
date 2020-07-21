@@ -1,0 +1,36 @@
+
+ArrayList
+    - Resizable Array
+    - import
+        - import java.util.ArrayList;
+
+       Syntax
+
+       ArrayList<Integer> scores=new ArrayList<>();
+
+    1. add
+
+        scores.add(20);
+        scores.add(200);
+
+    2 get An item
+        - scores.get(index)
+
+    3. Change value
+        - scores.set(index, value)
+
+    4. Remove
+
+        scores.remove(index)
+
+    5. Size
+        scores.size()
+
+    6. for/ foreach Loops
+
+    7. iterators
+
+    8. sort,
+
+
+
