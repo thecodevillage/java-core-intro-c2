@@ -1,4 +1,4 @@
-package com.thecodevillage.day9;
+package com.thecodevillage.day14.task1;
 
 public class MyFunctions {
 
@@ -20,7 +20,7 @@ public class MyFunctions {
         return 2 * PI * radius;
     }
 
-    public static String getGrade(int mean){
+    public static String getGrade(double mean){
         String grade="";
         if(mean >=0 && mean <= 40)
             grade = "D";
@@ -38,6 +38,10 @@ public class MyFunctions {
 
 
     public static int getMean(int totalMarks,int noOfSubjects){
+        return totalMarks/noOfSubjects;
+    }
+
+    public static double getMean(double totalMarks,int noOfSubjects){
         return totalMarks/noOfSubjects;
     }
 
