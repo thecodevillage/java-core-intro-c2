@@ -1,0 +1,39 @@
+- Array
+- ArrayList
+
+
+Today
+------
+- Enum
+    -special class in java that we can use to store final variables or constants
+
+    - enum keyword
+
+
+- Hashmap
+    - Key value
+
+    - key and value being of diff types
+
+    HashMap<String,Student> students=new HashMap<>();
+
+    1. Add Items
+
+        students.put(key,value)
+        \
+    2. remove() / clear()
+    3. size()
+
+
+    4. Loop -> keep in mind (keys & values)
+
+    keySet()
+    values()
+
+
+
+
+
+
+- HashSet
+- LinkedList
