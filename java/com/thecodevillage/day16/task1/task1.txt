@@ -1,0 +1,60 @@
+
+Applying OOP Concepts build simple program to mimick your bank mobile experience
+    Customer has below details
+        - name
+        - Address
+        - Mobile Number
+        - ID Type - (enum) -NATIONALID, PASSPORT, ALIEN, MILITARY
+        - Id number
+        - pin
+     Customer also can have multiple Accounts
+        - An account has the below details
+            - Account Number
+            - Account Type
+                - Has the below details
+                    - ID
+                    - name
+                    - description
+            - Account Balance
+            - Currency Type
+                - has the below details
+                    - ID
+                    - code (KES,USD)
+                    - name (Kenya Shillings)
+
+     Customer Transactions are also tracked
+        - A Transaction has
+            - Transaction Type - (enum)
+            - amount
+            - debitAccount
+            - creditAccount
+            - Date
+    1. Customer should be able to
+        - check balance
+        - deposit
+        - withdraw
+        - send money
+    - ask your customer to input pin
+    - check if the pin is correct
+    //if its correct
+    //display menu option
+    //e.g Press 1 - to check balance ,2 to deposit
+    //display balance if 1 is selected
+    //when they select2 allow them enter amount
+    //then display the new balance
+    //
+    //enhancements
+
+    - we don't the program to terminate until a user selects an option
+    - conditional loops while loop, do while
+
+    - Allow inputting of multiple customers
+
+
+    More Enhancements
+    -------------------
+    1. We need to store multiple customers in our database
+    2. each customer identified uniquely by mobile number
+    2. You should validate the mobile and pin b4 displaying menu to the customer
+    3. Transaction Type - (enum)
+    4. Customer ID Type - (enum) -NATIONALID, PASSPORT, ALIEN, MILITARY
