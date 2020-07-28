@@ -1,7 +1,7 @@
 
 in your database. create a table Account and insert the data as provided the below structure
 
-
+a)
     Customer Table
 
             id  id_number   full_name       gender
@@ -13,3 +13,17 @@ in your database. create a table Account and insert the data as provided the bel
             id  account_number  account_type    balance     customer_id
             1   67788678787     SAVINGS         3000.00     1
             2   34646456445     SAVINGS         400.00      2
+
+b) Write a query that selects a customer based on ID number provided
+
+
+c) Write a query that selects a customers and their accounts
+
+
+d) Write a a query that selects customer full_name and account_number
+
+e) Update a record based on id provided
+
+f) Delete a record based on id provided
+
+

@@ -93,6 +93,15 @@ create table customer(
     gender varchar(1)
 );
 
+create table account(
+    id int,
+    account_number varchar(16),
+    account_type varchar(50),
+    balance double,
+    customer_id int
+);
+
+
 
 
 
@@ -103,11 +112,28 @@ insert into tablename(column1,column2) values(value1,value2);
 
 insert into customer(id,id_number,full_name,gender) values(1,'23434555','JOHN DOE','M');
 
+insert into customer(id,id_number,full_name,gender) values(2,'4343535','LOREM IPSUM','F');
 
+
+// accounts table
+
+insert into account(id,account_number,account_type,balance,customer_id) values(1,'345353453','SAVINGS',4000,1);
 
 4. select data
-
 select * from customer; //selects all the data from the database
+
+select * from customer where id=1;
+
+
+select customer.full_name, account.account_number from customer, account where customer.id = account.customer_id;
+
+select * from customer, account where customer.id = account.customer_id;
+
+select * from customer, account where customer.id = account.customer_id;
+
+
+select c.full_name,a.account_number from customer c,account a where c.id = a.customer_id;
+
 
 6. update the data
 
