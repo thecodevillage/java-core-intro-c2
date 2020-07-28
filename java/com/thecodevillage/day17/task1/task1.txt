@@ -1,5 +1,5 @@
 
-in your database. create a table Account provided the below structure
+in your database. create a table Account and insert the data as provided the below structure
 
 
     Customer Table
