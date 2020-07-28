@@ -1,0 +1,119 @@
+
+Databases
+
+- Ensure that you have Mysql installed on your pc
+
+sql - Structured Query language
+
+- Language that allows to access and manipulate data in our databases.
+
+e.g
+
+ 1. Bank database will store the below Details
+    - Account
+    - Customer
+    - Currency
+    - Account Types
+    - Menu
+
+ 2. School Database Will Contain
+    - Students
+    - Teachers.
+    - Subjects
+    - Timetables
+    - Inventory
+
+Relational Database Management Systems
+
+MysQl, Oracle, MS SQL, MS Access, Postgres
+     -  Related data is stored.
+
+
+A Database has Tables
+    - Table has - Columns(fields) and rows
+
+    e.g Account Table
+        accountNumber
+        accountType
+        balance
+
+        id  account_number  account_type    balance
+        1   67788678787     SAVINGS         3000.00
+        2   34646456445     SAVINGS         400.00
+
+        select * from account;
+Primary Key
+    - Auto generate
+    - auto increment
+
+Foreign Key
+    - Related tables
+
+    e.g customer table and account table
+
+    Customer Table
+
+            id  id_number   full_name       gender
+            1   3435363     John Doe        M
+            2   8464884     Lorem Ipsum     F
+
+
+          Account Table
+            id  account_number  account_type    balance     customer_id
+            1   67788678787     SAVINGS         3000.00     1
+            2   34646456445     SAVINGS         400.00      2
+
+  * customer_id is a foreign key
+
+** Constraints
+    - Allows us maintain data integrity
+
+----------
+Steps
+----------
+
+1. create a database.
+
+create database yourdatabasename;
+
+
+
+2. create table
+
+
+create table tabllename(
+    columnname datatype or datatype(length)
+);
+
+e.g
+create table customer(
+    id int,
+    id_number varchar(12),
+    full_name varchar(100),
+    gender varchar(1)
+);
+
+
+
+
+3. insert data
+
+syntax
+insert into tablename(column1,column2) values(value1,value2);
+
+insert into customer(id,id_number,full_name,gender) values(1,'23434555','JOHN DOE','M');
+
+
+
+4. select data
+
+select * from customer; //selects all the data from the database
+
+6. update the data
+
+
+7. delete
+
+
+
+8. basic joins

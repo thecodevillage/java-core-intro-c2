@@ -1,0 +1,15 @@
+
+in your database. create a table Account provided the below structure
+
+
+    Customer Table
+
+            id  id_number   full_name       gender
+            1   3435363     John Doe        M
+            2   8464884     Lorem Ipsum     F
+
+
+          Account Table
+            id  account_number  account_type    balance     customer_id
+            1   67788678787     SAVINGS         3000.00     1
+            2   34646456445     SAVINGS         400.00      2
