@@ -1,9 +1,34 @@
 
-
 - Add Primary
 
 alter table customer add primary key(id);
 
-- set AutoIncremenent
+- set AutoIncrement
 
 alter table customer auto_increment = 1;
+
+Connecting our Java Program to the database.
+
+1. Rdbms we are using - Mysql
+
+    JDBC Drivers (Oracle, Mysql, Postgres)
+        - Driver Class
+        - com.mysql.jdbc.Driver
+
+
+    - Connection url
+
+    jdbc:mysql://localhost:3306/java_core_c2
+
+
+    username: root
+    password:
+
+
+    Download jar file from
+
+    https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.21
+
+
+
+
