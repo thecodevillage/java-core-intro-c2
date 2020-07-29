@@ -93,18 +93,19 @@ create table tabllename(
 
 e.g
 create table customer(
-    id int,
-    id_number varchar(12),
-    full_name varchar(100),
-    gender varchar(1)
+    id int primary key auto_increment,
+    id_number varchar(12) not null,
+    full_name varchar(100) not null,
+    gender varchar(1) not null
 );
 
 create table account(
-    id int,
-    account_number varchar(16),
-    account_type varchar(50),
-    balance double,
-    customer_id int
+    id int primary key auto_increment,
+    account_number varchar(16) not null,
+    account_type varchar(50) not null,
+    balance double not null,
+    customer_id int,
+    foreign key(customer_id) references customer(id)
 );
 
 
@@ -145,9 +146,13 @@ select c.full_name,a.account_number from customer c,account a where c.id = a.cus
 
 6. update the data
 
+update customer set pin=3456 where id=1;
+
+update customer set gender = 'M' where id=1;
 
 7. delete
 
+delete from customer where id=3;
 
 
 8. basic joins

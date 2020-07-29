@@ -5,9 +5,9 @@ in your database. create a table Account and insert the data as provided the bel
 a)
     Customer Table
 
-            id  id_number   full_name       gender
-            1   3435363     John Doe        M
-            2   8464884     Lorem Ipsum     F
+            id  id_number   full_name       gender  pin
+            1   3435363     John Doe        M       3455
+            2   8464884     Lorem Ipsum     F       2345
 
 
           Account Table
@@ -38,7 +38,7 @@ a) Create the below tables
 
         2. - Account Types
             - id
-            - name eg. SAVINGAS
+            - name eg. SAVINGS, PERSONAL
             - description eg. for savings
 
 
@@ -57,6 +57,11 @@ a) Create the below tables
             - amount
 
 
+b) Customer Table should also have a pin column
 
+hint: use the alter command e.g
 
+alter table customer add column
+
+c) Add constraints to the tables
 

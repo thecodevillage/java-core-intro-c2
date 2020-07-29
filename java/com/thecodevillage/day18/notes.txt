@@ -1,0 +1,9 @@
+
+
+- Add Primary
+
+alter table customer add primary key(id);
+
+- set AutoIncremenent
+
+alter table customer auto_increment = 1;
