@@ -28,6 +28,15 @@ Relational Database Management Systems
 MysQl, Oracle, MS SQL, MS Access, Postgres
      -  Related data is stored.
 
+MySql Clients
+
+    Terminal/shell
+
+
+    GUI Based
+        - Xamp
+        - Mysql Workbench
+
 
 A Database has Tables
     - Table has - Columns(fields) and rows
@@ -57,7 +66,6 @@ Foreign Key
             1   3435363     John Doe        M
             2   8464884     Lorem Ipsum     F
 
-
           Account Table
             id  account_number  account_type    balance     customer_id
             1   67788678787     SAVINGS         3000.00     1
@@ -77,9 +85,7 @@ Steps
 create database yourdatabasename;
 
 
-
 2. create table
-
 
 create table tabllename(
     columnname datatype or datatype(length)
@@ -102,9 +108,6 @@ create table account(
 );
 
 
-
-
-
 3. insert data
 
 syntax
@@ -119,11 +122,14 @@ insert into customer(id,id_number,full_name,gender) values(2,'4343535','LOREM IP
 
 insert into account(id,account_number,account_type,balance,customer_id) values(1,'345353453','SAVINGS',4000,1);
 
+
+
+
 4. select data
+
 select * from customer; //selects all the data from the database
 
 select * from customer where id=1;
-
 
 select customer.full_name, account.account_number from customer, account where customer.id = account.customer_id;
 
@@ -131,6 +137,8 @@ select * from customer, account where customer.id = account.customer_id;
 
 select * from customer, account where customer.id = account.customer_id;
 
+
+-- uses alias
 
 select c.full_name,a.account_number from customer c,account a where c.id = a.customer_id;
 
