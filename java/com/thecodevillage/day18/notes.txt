@@ -18,7 +18,7 @@ Connecting our Java Program to the database.
 
     - Connection url
 
-    jdbc:mysql://localhost:3306/java_core_c2
+    jdbc:mysql://localhost:3306/java_core_c2?serverTimezone=UTC
 
 
     username: root
