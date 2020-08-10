@@ -1,0 +1,106 @@
+
+
+
+Python
+
+  - Flask
+  - Django
+
+Javascripts
+  - React
+  - Vue
+  - Angular
+  - gatsby
+  - ember
+
+
+  PHP
+    - codeigniter
+    - laravel
+    - sympony
+    .....
+
+
+    apache server
+    apche
+    nginx
+
+  - Java
+   - Spring
+   - Playframework -
+   - Micronaut - groovy
+   - Struts
+
+
+   Frameworks - Open sourced
+
+   - Time required to deliver -> agile
+
+   - reduces your need to create some components from scratch
+
+   - security - most are well tested
+
+   - integration -> Database/file systems
+
+   - documentation and support
+
+
+   Spring
+
+   - designed for building scalable.
+
+   - Configuration of an application - very using xml
+
+   - Spring MVC (Model, View, Controller).
+
+   -> Monolithic Applications -> Micro-services - > APIs
+
+
+   Spring Boot
+
+    -> production-ready applications quickly with minimal Configuration.
+
+    -> micro-services based
+
+    -> minimal xml config
+
+    -> ORM -> Object Relation Mapping
+
+    -> Deployment package - > .jar or .war -> server
+
+    servers
+
+    servlet container
+      - tomcat
+      - jboss
+      - glassfish
+      - weblogic
+      - netty
+      - jetty
+
+    -> Running/ Deployment - Embedded server
+
+    -> containerization - kubernetes/docker
+
+
+
+    Maven , Gradle
+
+    - Build tools
+
+    Group
+
+    Artifact
+
+    name
+
+    packagename
+
+    packaging jar/war
+
+    Dependencies
+
+
+    - Below command installs dependencies and generates deployment
+    
+    mvn clean install

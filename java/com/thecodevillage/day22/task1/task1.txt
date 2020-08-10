@@ -1,0 +1,7 @@
+
+1. Make an enhancement on the API to allow
+
+    a) Creation of customer account
+    b) Fetch Customer accounts
+    c) Fetch the Menu
+    d) Create the menu

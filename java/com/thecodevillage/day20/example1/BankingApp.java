@@ -1,7 +1,4 @@
 package com.thecodevillage.day20.example1;
-
-import com.thecodevillage.day9.MyFunctions;
-
 import java.util.List;
 
 public class BankingApp {

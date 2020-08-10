@@ -1,7 +1,5 @@
 package com.thecodevillage.day20.example1;
 
-import java.io.IOException;
-import java.net.ConnectException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -69,7 +67,7 @@ public class MyDBFunctions {
         } catch (Exception exception){
             exception.printStackTrace();
         } finally {
-            closeConnections();
+            //closeConnections();
         }
 
         return customers;

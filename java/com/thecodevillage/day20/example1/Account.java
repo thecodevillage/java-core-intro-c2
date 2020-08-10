@@ -2,6 +2,7 @@ package com.thecodevillage.day20.example1;
 
 
 //
+
 public class Account {
 
     private int id;
