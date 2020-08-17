@@ -1,0 +1,20 @@
+
+
+- 3 Days Max - 21st
+-----------
+
+In this mini-project you are required to build a mini College Hostel Allocation System API with spring boot.
+
+You should have APIs for and not limited to:
+
+    1. Setting up Users/Administrators (+)
+    2. Creating/Updating and fetching Hostel & Units (M)
+    3. Creating/Updating & fetching  Students. (M)
+    4. Allow Student Pay & Book/reserve an Hostel (M)
+    5. Fetch students allocated to a room/hostel (M)
+    6. Allow Multiple Universities/Colleges (+)
+
+ NB:
+
+ - Responses should be generic
+ - req/res in json format
